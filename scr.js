@@ -1,4 +1,4 @@
 function reveal(){
     document.getElementById("hiddenMessage").style.display = 'block';
-    window.chrome.webview.postMessage('getData');
+    window.chrome.webview.postMessage('QRCODE');
 }
